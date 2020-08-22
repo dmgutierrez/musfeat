@@ -1,0 +1,8 @@
+pandas
+numpy
+coloredlogs
+pymongo
+librosa
+pydub
+scikit-learn
+matplotlib
