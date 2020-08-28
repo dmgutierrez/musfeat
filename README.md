@@ -74,8 +74,8 @@ roll_percent_min | float | minimum roll percentage (spectral analysis)
 roll_percent_max | float | maximum roll percentage  (spectral analysis)
 roll_percent | float | roll percentage  (spectral analysis)
 power | float | power
-n_chroma | integer | Number of chroma bins to produce
-n_octaves | integer | Number of octaves to analyze above fmin
+n_chroma | integer | number of chroma bins to produce
+n_octaves | integer | number of octaves to analyze above fmin
 mono | boolean | indicator whether you want to work with mono or non-mono signals during the analysis
 
 For more information, you can consult the official Librosa library where these parameters are very well described: [Librosa](https://librosa.org/doc/latest/index.html). 
@@ -98,7 +98,6 @@ Attribute | Type | Description
 mel | tuple | shape of the Mel feature
 chroma | tuple | shape of the Chromagram feature
 
-For more information, you can consult the official Spotify Web API regarding Artists at [Get an Artist](https://developer.spotify.com/documentation/web-api/reference/artists/get-artist/). 
 
 ### *TODOs*
 
